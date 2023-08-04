@@ -1,0 +1,112 @@
+/* Start Control Media From 1600px */
+@media (max-width: 1650px) {
+    .product-landing-page .advantages>p {
+        font-size: 20px !important;
+    }
+}
+
+/* Start Control Media From 1999px */
+@media (max-width: 1199px) {
+
+    .noteVerse h1,
+    .note-Nexus h1 {
+        font-size: 30px !important;
+    }
+
+    .product-landing-page .content .plans > img {
+        width: 200px !important;
+    }
+}
+
+/* Start Control Media From 991px */
+@media (max-width: 991px) {
+    .about .row>div {
+        margin-bottom: 90px;
+    }
+
+    .noteVerse .left-note,
+    .note-Nexus .left-note,
+    .noteVerse .right-note,
+    .note-Nexus .right-note {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .overlay-left,
+    .overlay-right {
+        display: none;
+    }
+
+    .noteVerse .left-note,
+    .note-Nexus .right-note {
+        background-color: #48c480;
+        margin-bottom: 30px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .product-landing-page {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .product-landing-page .contact-form {
+        margin-right: 0 !important;
+    }
+    .products .product {
+        width: calc(95% / 2);
+    }
+}
+
+/* Start Control Media From 768px */
+@media (max-width: 768px) {
+    header .container-fluid {
+        padding: 5px !important;
+    }
+
+    header .container-fluid i {
+        font-size: 20px !important;
+    }
+    
+
+    .header-icons i:last-child::after {
+        width: 15px;
+        height: 15px;
+        font-size: 13px;
+        right: -15px;
+        top: -12px;
+
+    }
+    .header-icons i:last-child {
+        margin-right: 10px;
+    }
+
+    .landing-page h1 {
+        font-size: 30px !important;
+    }
+    .product-landing-page {
+        padding: 10px 0 !important;
+    }
+
+    .product-landing-page .content .plans > img {
+        display: none !important;
+    }
+    .product-landing-page .advantages {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .product-landing-page .filter {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .product-landing-page .filter .dropdown {
+        margin-bottom: 20px;
+    }
+    .product-landing-page .filter .dropdown:first-child {
+        margin-right: 0 !important;
+    }
+    .products .product {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
